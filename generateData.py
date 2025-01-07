@@ -1,0 +1,32 @@
+#John-Michael JENY JEYARAJ 12013787
+import csv
+import random
+
+# Constants for generating instances
+NUM_INSTANCES_PER_SIZE = 10  # Number of instances to generate per problem size
+MAX_ITEMS = 100               # Maximum number of items in the largest problem
+MIN_ITEMS = 5                # Minimum number of items in the smallest problem
+ITEM_STEP = 1                # Step size for increasing number of items
+MAX_WEIGHT = 10
+MAX_VALUE = 10
+MAX_CAPACITY = 50
+MIN_CAPACITY = 10
+
+# Define the CSV filename
+csv_filename = 'instances.csv'
+
+# Generate instances
+instances = []
+for num_items in range(MIN_ITEMS, MAX_ITEMS + 1, ITEM_STEP):
+    for _ in range(NUM_INSTANCES_PER_SIZE):
+        capacity = random.randint(MAX_CAPACITY // 2, MAX_CAPACITY)
+        weights = [random.randint(1, MAX_WEIGHT) for _ in range(num_items)]
+        values = [random.randint(1, MAX_VALUE) for _ in range(num_items)]
+        min_weight = random.randint(MIN_CAPACITY, 2* MIN_CAPACITY)
+        instance = [capacity, num_items, min_weight] + [val for pair in zip(weights, values) for val in pair]
+        instances.append(instance)
+
+# Write instances to CSV file
+with open(csv_filename, mode='w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerows(instances)
