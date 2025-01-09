@@ -1,14 +1,14 @@
-# 📦 Knapsack Problem Optimizer
+# 📦 Knapsack Problem Optimisation
 
-> *A solution to optimize item selection for the knapsack problem using dynamic programming.*
+> *A solution to optimise item selection for the knapsack problem using dynamic programming.*
 
 ---
 
 ## 🌟 Highlights
 
 - Efficient solution for the 0/1 Knapsack Problem.
-- Uses dynamic programming for time and space optimization.
-- Implements a classic algorithm widely applicable in optimization problems.
+- Uses dynamic programming for time and space optimisation.
+- Implements a classic algorithm widely applicable in optimisation problems.
 
 ---
 
@@ -16,7 +16,7 @@
 
 This project provides a solution to the well-known **0/1 Knapsack Problem**. It leverages **dynamic programming** to efficiently compute the maximum value that can be carried in a knapsack of fixed capacity. The knapsack problem is a common algorithmic problem used in various fields such as operations research, cryptography, and logistics. This implementation solves the problem optimally, making it useful for scenarios like resource allocation, budgeting, and planning.
 
-The project showcases my understanding of algorithmic optimization techniques and their real-world applications.
+The project showcases my understanding of algorithmic optimisation techniques and their real-world applications.
 
 ### ✍️ Author
 
