@@ -14,9 +14,7 @@
 
 ## ℹ️ Overview
 
-This project provides a solution to the well-known **0/1 Knapsack Problem**. It leverages **dynamic programming** to efficiently compute the maximum value that can be carried in a knapsack of fixed capacity. The knapsack problem is a common algorithmic problem used in various fields such as operations research, cryptography, and logistics. This implementation solves the problem optimally, making it useful for scenarios like resource allocation, budgeting, and planning.
-
-The project showcases my understanding of algorithmic optimisation techniques and their real-world applications.
+This project provides a solution to the well-known **0/1 Knapsack Problem**. It leverages **dynamic programming** to efficiently compute the maximum value that can be carried in a knapsack of fixed capacity. The knapsack problem is a common algorithmic problem used in various fields such as operations research, cryptography, and logistics. This implementation solves the problem optimally, making it useful for scenarios like resource allocation, budgeting, and planning. Comparing different types of programming to really learn and understand the use cases for algorithms.
 
 ### ✍️ Author
 
