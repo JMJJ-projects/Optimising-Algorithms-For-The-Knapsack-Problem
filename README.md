@@ -1,14 +1,14 @@
 # 📦 Knapsack Problem Optimisation
 
-> *A solution to optimise item selection for the knapsack problem using dynamic programming.*
+> *Comparing solutions to optimise item selection for the knapsack problem using dynamic programming.*
 
 ---
 
 ## 🌟 Highlights
 
-- Efficient solution for the 0/1 Knapsack Problem.
+- Find the most efficient solution for the 0/1 Knapsack Problem.
 - Uses dynamic programming for time and space optimisation.
-- Implements a classic algorithm widely applicable in optimisation problems.
+- Implements classic algorithms widely applicable in optimisation problems.
 
 ---
 
